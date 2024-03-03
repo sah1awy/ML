@@ -1,1 +1,1 @@
-# ML
+Machine Learning algorithms and techniques
