@@ -1,1 +1,1 @@
-Machine Learning algorithms and techniques
+Machine Learning Projects
