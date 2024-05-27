@@ -37,7 +37,7 @@ class LogidticRegression:
             z = dot(X,theta)
             cost0 = y.T.dot(log(self.sigmoid(z)))
             cost1 = (1-y).T.dot(log(1-self.sigmoid(z)))
-            cost = -((cost1 + cost0))/len(y)
+            cost = -((cost1 + cost0))/len(y)    # Total cost is the negative average of cost 1 and cost 2
             return cost
         cost_list = np.zeros(iter,)
         for i in range(iter):
